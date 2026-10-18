@@ -1,32 +1,6 @@
 # 🛒 Amazon Egypt – UI Test Automation Framework
 
 > End-to-end UI test automation for [amazon.eg](https://www.amazon.eg/) built with **Java, Selenium WebDriver, TestNG and Maven**, using the **Page Object Model**, config/data-driven execution, **Log4j2** logging and **Allure** reporting with screenshots on failure.
-> ---
-
-## 🎬 Demo
-
-<div align="center">
-
-### ▶️ Amazon Egypt UI Automation: Full Test Run
-
-<video src="https://github.com/user-attachments/assets/REPLACE-WITH-YOUR-VIDEO-ID" controls muted width="90%"></video>
-
-<sub>Live execution of the Selenium + TestNG suite on amazon.eg: search, filtering, sorting, add to cart and quantity update.</sub>
-
-</div>
-
-<details>
-<summary><b>📋 What you'll see in the video</b></summary>
-
-- 🔍 Searching and applying the **Dell** brand filter
-- 💰 Setting the max price with the slider and sorting **Low to High**
-- 🚚 Applying **Free Shipping** and adding multiple products
-- 🛒 Updating cart quantity and verifying the subtotal
-- ✅ Tests running one after another, with results reported in Allure
-
-</details>
-
----
 
 ![Java](https://img.shields.io/badge/Java-26-orange?logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-build-C71A36?logo=apachemaven&logoColor=white)
@@ -42,21 +16,22 @@
 
 1. [Overview](#-overview)
 2. [Quick Start](#-quick-start)
-3. [Key Features](#-key-features)
-4. [Tech Stack](#-tech-stack)
-5. [Project Structure](#-project-structure)
-6. [Framework Architecture](#-framework-architecture)
-7. [Test Scenarios](#-test-scenarios)
-8. [Prerequisites](#-prerequisites)
-9. [Setup & Configuration](#-setup--configuration)
-10. [How to Run](#-how-to-run)
-11. [Reporting (Allure)](#-reporting-allure)
-12. [Logging](#-logging)
-13. [Design Decisions & Best Practices](#-design-decisions--best-practices)
-14. [Known Limitations & Roadmap](#-known-limitations--roadmap)
-15. [Troubleshooting](#-troubleshooting)
-16. [Author](#-author)
-17. [License](#-license)
+3. [Demo Video](#-demo-video)
+4. [Key Features](#-key-features)
+5. [Tech Stack](#-tech-stack)
+6. [Project Structure](#-project-structure)
+7. [Framework Architecture](#-framework-architecture)
+8. [Test Scenarios](#-test-scenarios)
+9. [Prerequisites](#-prerequisites)
+10. [Setup & Configuration](#-setup--configuration)
+11. [How to Run](#-how-to-run)
+12. [Reporting (Allure)](#-reporting-allure)
+13. [Logging](#-logging)
+14. [Design Decisions & Best Practices](#-design-decisions--best-practices)
+15. [Known Limitations & Roadmap](#-known-limitations--roadmap)
+16. [Troubleshooting](#-troubleshooting)
+17. [Author](#-author)
+18. [License](#-license)
 
 ---
 
@@ -84,6 +59,14 @@ allure serve allure-results
 ```
 
 > ⚠️ **Important:** `pom.xml` points Surefire to `testng.xml`, but the suite file in the repo is **`testNg.xml`**. This works on Windows (case-insensitive) but fails on Linux/macOS. See [How to Run](#-how-to-run) for the one-line fix.
+
+---
+
+## 🎬 Demo Video
+
+A short recording of the test suite running on Amazon Egypt:
+
+https://github.com/user-attachments/assets/REPLACE-WITH-YOUR-VIDEO-ID
 
 ---
 
