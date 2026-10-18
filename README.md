@@ -16,22 +16,21 @@
 
 1. [Overview](#-overview)
 2. [Quick Start](#-quick-start)
-3. [Demo Video](#-demo-video)
-4. [Key Features](#-key-features)
-5. [Tech Stack](#-tech-stack)
-6. [Project Structure](#-project-structure)
-7. [Framework Architecture](#-framework-architecture)
-8. [Test Scenarios](#-test-scenarios)
-9. [Prerequisites](#-prerequisites)
-10. [Setup & Configuration](#-setup--configuration)
-11. [How to Run](#-how-to-run)
-12. [Reporting (Allure)](#-reporting-allure)
-13. [Logging](#-logging)
-14. [Design Decisions & Best Practices](#-design-decisions--best-practices)
-15. [Known Limitations & Roadmap](#-known-limitations--roadmap)
-16. [Troubleshooting](#-troubleshooting)
-17. [Author](#-author)
-18. [License](#-license)
+3. [Key Features](#-key-features)
+4. [Tech Stack](#-tech-stack)
+5. [Project Structure](#-project-structure)
+6. [Framework Architecture](#-framework-architecture)
+7. [Test Scenarios](#-test-scenarios)
+8. [Prerequisites](#-prerequisites)
+9. [Setup & Configuration](#-setup--configuration)
+10. [How to Run](#-how-to-run)
+11. [Reporting (Allure)](#-reporting-allure)
+12. [Logging](#-logging)
+13. [Design Decisions & Best Practices](#-design-decisions--best-practices)
+14. [Known Limitations & Roadmap](#-known-limitations--roadmap)
+15. [Troubleshooting](#-troubleshooting)
+16. [Author](#-author)
+17. [License](#-license)
 
 ---
 
@@ -59,16 +58,6 @@ allure serve allure-results
 ```
 
 > ⚠️ **Important:** `pom.xml` points Surefire to `testng.xml`, but the suite file in the repo is **`testNg.xml`**. This works on Windows (case-insensitive) but fails on Linux/macOS. See [How to Run](#-how-to-run) for the one-line fix.
-
----
-
-## 🎬 Demo Video
-
-A short recording of the test suite running on Amazon Egypt:
-
-<video src="docs/Amazon.Egypt.Video.mp4" controls muted width="100%">
-  Your browser does not support the video tag.
-</video>
 
 ---
 
@@ -113,8 +102,6 @@ A short recording of the test suite running on Amazon Egypt:
 Amazon_Ahmed_Amr
 ├── pom.xml                              # Dependencies, plugin versions, Surefire suite config
 ├── testNg.xml                           # TestNG suite: ProductTest + CartTest
-├── docs
-│   └── Amazon.Egypt.Video.mp4           # Demo video shown in the README
 ├── logs/                                # Runtime log output (git-ignored)
 ├── allure-results/                      # Raw Allure results created after a run
 └── src
@@ -413,12 +400,6 @@ Paths are relative to the working directory. Run Maven from the project root and
 <summary><b>`allure` command not found</b></summary>
 
 Install the Allure CLI (see [Reporting](#-reporting-allure)) and reopen your terminal.
-</details>
-
-<details>
-<summary><b>Demo video does not play on GitHub</b></summary>
-
-Make sure the file is committed at `docs/Amazon.Egypt.Video.mp4` (the path used by the `<video>` tag) and is under GitHub's 100 MB file limit. The video is encoded as H.264 (MP4) for the widest browser support.
 </details>
 
 ---
