@@ -1,6 +1,32 @@
 # 🛒 Amazon Egypt – UI Test Automation Framework
 
 > End-to-end UI test automation for [amazon.eg](https://www.amazon.eg/) built with **Java, Selenium WebDriver, TestNG and Maven**, using the **Page Object Model**, config/data-driven execution, **Log4j2** logging and **Allure** reporting with screenshots on failure.
+> ---
+
+## 🎬 Demo
+
+<div align="center">
+
+### ▶️ Amazon Egypt UI Automation: Full Test Run
+
+<video src="https://github.com/user-attachments/assets/REPLACE-WITH-YOUR-VIDEO-ID" controls muted width="90%"></video>
+
+<sub>Live execution of the Selenium + TestNG suite on amazon.eg: search, filtering, sorting, add to cart and quantity update.</sub>
+
+</div>
+
+<details>
+<summary><b>📋 What you'll see in the video</b></summary>
+
+- 🔍 Searching and applying the **Dell** brand filter
+- 💰 Setting the max price with the slider and sorting **Low to High**
+- 🚚 Applying **Free Shipping** and adding multiple products
+- 🛒 Updating cart quantity and verifying the subtotal
+- ✅ Tests running one after another, with results reported in Allure
+
+</details>
+
+---
 
 ![Java](https://img.shields.io/badge/Java-26-orange?logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-build-C71A36?logo=apachemaven&logoColor=white)
