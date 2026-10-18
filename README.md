@@ -66,6 +66,7 @@ allure serve allure-results
 
 A short recording of the test suite running on Amazon Egypt:
 
+<!-- Replace the line below by dragging Amazon.Egypt.Video.mp4 into the GitHub README editor; keep the URL alone on its own line. -->
 https://github.com/user-attachments/assets/REPLACE-WITH-YOUR-VIDEO-ID
 
 ---
